@@ -1,0 +1,90 @@
+
+body{
+    font-family:futura;
+}
+p, form{
+    font-family: 'Montserrat', sans-serif;
+    color:gray;
+    font-size:13px;
+    line-height:1.5;
+    font-weight:300;
+}
+a{
+    color:black;
+    
+}
+a:hover, a:active{
+    text-decoration:none;
+    color:black;
+}
+.navbar-brand{
+    font-size:36px;
+    margin-top:72px;
+}
+
+.navbar .navbar-expand-lg .navbar-light{
+    padding: 16px 0px 48px 0px;
+    font-size:14px;
+}
+.home-banner{
+    width:100%;
+}
+
+.container{
+    width:70%;
+}
+.row{
+    margin-top:48px;
+}
+.col-md-4{
+    padding:12px;
+
+}
+.work-cover{
+    width:100%;
+}
+.artwork{
+    width:100%;
+    padding-bottom: 12px;
+}
+.video{
+    width:100%;
+    height:auto;
+}
+
+a .work-cover:hover{
+    opacity:0.8;
+}
+
+.work-title{
+    font-size:12px;
+    margin-top:12px;
+}
+
+.footer{
+    font-size:12px;
+    margin-top:48px;
+    padding-bottom:72px;
+}
+.btn{
+    background-color:black;
+    color:white;
+    border-radius:0px;
+    font-family:futura;
+    padding:12px 24px;
+}
+.form-group input, .form-group textarea{
+    border-radius:0px;
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        width:90%;
+    }
+    .home-banner{
+        height:100%;
+    }
+    .col-md-6{
+        padding:8px;
+    }
+}
